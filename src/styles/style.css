@@ -42,14 +42,16 @@ body {
 a {
   margin: 12px;
   text-decoration: none;
+  color: rgb(50, 50, 50);
+  font-size: 110%;
 }
 .navigator {
   width: 75%;
-  top: 27px;
+  top: 24px;
   margin-left: 240px;
   position: relative;
   font-size: 120%;
-  font-weight: 550;
+  font-weight: 500;
 }
 #burger {
   width: 50px;
@@ -84,6 +86,7 @@ a {
   height: 30px;
   left: 50%;
   position: relative;
+  top: -6px;
 }
 .input-group {
   display: inline-block;
@@ -91,6 +94,7 @@ a {
   width: 200px;
   margin-left: 300px;
   margin-top: -10px;
+  top: -6px;
 }
 .conent-header {
   position: relative;
@@ -105,7 +109,7 @@ a {
   margin-left: 295px;
   padding: 2px;
   font-size: 200%;
-  top: -18px;
+  top: 5px;
 }
 .aside {
   background-color: rgb(56, 56, 56);
@@ -214,7 +218,6 @@ a {
   height: 36px;
   margin: 10px;
   color: white;
-  cursor: pointer;
   text-align: left;
   font-size: 100%;
   background-color: rgb(56, 56, 56);
@@ -228,6 +231,7 @@ a {
   position: relative;
   float: left;
   margin-left: 216px;
+  margin-top: 20px;
 }
 .cards {
   position: relative;
