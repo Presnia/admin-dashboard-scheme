@@ -242,6 +242,8 @@ a {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(150, 150, 150);
   margin: 0px 20px 10px;
+  text-align: center;
+  font-size: 150%;
 }
 #card1 {
   background-color: #17a2b8;
