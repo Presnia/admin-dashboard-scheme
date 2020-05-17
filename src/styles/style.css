@@ -186,7 +186,6 @@ strong {
   right: 5%;
 }
 .sales {
-  background-color: orangered;
   position: relative;
   float: left;
   width: 54.5%;
@@ -199,7 +198,6 @@ strong {
   box-shadow: 2px 2px 5px rgb(150, 150, 150);
 }
 .visitors {
-  background-color: orangered;
   position: relative;
   float: right;
   width: 40%;
@@ -210,5 +208,17 @@ strong {
   box-shadow: 2px 2px 5px rgb(150, 150, 150);
   background-image: url("../img/visitors.png");
   background-repeat: no-repeat;
+  background-size: contain;
+}
+.direct-chat {
+  background-color: orangered;
+  position: relative;
+  float: left;
+  width: 54.5%;
+  height: 35%;
+  margin-left: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(150, 150, 150);
+  background-image: url("../img/direct-chat.png");
   background-size: contain;
 }
