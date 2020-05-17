@@ -105,7 +105,7 @@ span {
   font-size: 200%;
 }
 .aside {
-  background-color: rgb(110, 110, 110);
+  background-color: rgb(34, 34, 34);
   position: relative;
   width: 15%;
   height: 203%;
@@ -124,12 +124,12 @@ span {
 .cards {
   position: relative;
   display: inline-block;
-  width: 250px;
+  width: 262px;
   height: 160px;
   border: 1px solid rgb(207, 207, 207);
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(150, 150, 150);
-  margin: 0px 26px 10px;
+  margin: 0px 20px 10px;
 }
 #card1 {
   background-color: #17a2b8;
@@ -154,7 +154,7 @@ span {
   z-index: -1;
 }
 .content {
-  background-color: rgb(255, 237, 221);
+  /* background-color: rgb(255, 237, 221); */
   width: 85%;
   height: 150%;
   float: left;
@@ -211,7 +211,6 @@ strong {
   background-size: contain;
 }
 .direct-chat {
-  background-color: orangered;
   position: relative;
   float: left;
   width: 54.5%;
@@ -221,4 +220,45 @@ strong {
   box-shadow: 2px 2px 5px rgb(150, 150, 150);
   background-image: url("../img/direct-chat.png");
   background-size: contain;
+}
+.sales-graph {
+  position: relative;
+  float: right;
+  width: 40%;
+  height: 30.3%;
+  margin-top: 25px;
+  right: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(150, 150, 150);
+  background-image: url("../img/sales-graph.png");
+  background-size: 101%;
+  background-repeat: no-repeat;
+}
+.to-do-list {
+  position: relative;
+  float: left;
+  width: 54.5%;
+  height: 26%;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(150, 150, 150);
+  background-image: url("../img/to-do-list.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.calendar {
+  background-color: orangered;
+  position: relative;
+  float: right;
+  width: 40%;
+  height: 26%;
+  margin-top: 25px;
+  right: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(150, 150, 150);
+  background-image: url("../img/calendar.png");
+  background-size: 101.7%;
+  background-repeat: no-repeat;
+
 }
