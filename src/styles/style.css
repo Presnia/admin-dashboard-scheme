@@ -188,6 +188,7 @@ strong {
 .sales {
   background-color: orangered;
   position: relative;
+  float: left;
   width: 54.5%;
   height: 30.8%;
   margin: 25px;
@@ -196,4 +197,18 @@ strong {
   background-size: 100%;
   background-repeat: no-repeat;
   box-shadow: 2px 2px 5px rgb(150, 150, 150);
+}
+.visitors {
+  background-color: orangered;
+  position: relative;
+  float: right;
+  width: 40%;
+  height: 35.4%;
+  margin-top: 25px;
+  right: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(150, 150, 150);
+  background-image: url("../img/visitors.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
