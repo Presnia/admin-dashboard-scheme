@@ -157,6 +157,70 @@ a {
   border-radius: 50%;
   object-fit: cover;
 }
+.aside-buttons {
+  position: fixed;
+  width: 200px;
+  height:630px;
+  margin: 0px 8px;
+  top: 165px;
+  z-index: 2;
+}
+#widgets-btn, #layout-options-btn,
+#charts-btn, #ui-elements-btn, #forms-btn, #tables-btn,
+#aside-btn {
+  display: block;
+  position: relative;
+  width: 180px;
+  height: 36px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  font-size: 100%;
+  background-color: rgb(56, 56, 56);
+  border: none;
+  border-radius: 5px;
+}
+#dashboard-btn {
+  display: block;
+  position: relative;
+  width: 180px;
+  height: 36px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  font-size: 100%;
+  background-color: rgb(60, 95, 253);
+  border: none;
+  border-radius: 5px;
+}
+#dashboard-btn:hover {
+  background-color: #17a2b8;
+}
+#widgets-btn:hover,
+#layout-options-btn:hover,
+#charts-btn:hover,
+#ui-elements-btn:hover,
+#forms-btn:hover,
+#tables-btn:hover,
+#aside-btn:hover {
+  background-color: rgb(90, 90, 90);
+}
+#aside-btn1, #aside-btn2 {
+  display: block;
+  position: relative;
+  width: 180px;
+  height: 36px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  font-size: 100%;
+  background-color: rgb(56, 56, 56);
+  border: none;
+  border-radius: 5px;
+}
 .row {
   /* background: rgb(225, 255, 195); */
   width: 85%;
