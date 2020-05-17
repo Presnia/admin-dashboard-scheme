@@ -105,7 +105,7 @@ a {
   margin-left: 295px;
   padding: 2px;
   font-size: 200%;
-  top: -18px;
+  top: 5px;
 }
 .aside {
   background-color: rgb(56, 56, 56);
@@ -214,7 +214,7 @@ a {
   height: 36px;
   margin: 10px;
   color: white;
-  cursor: pointer;
+  /* cursor: pointer; */
   text-align: left;
   font-size: 100%;
   background-color: rgb(56, 56, 56);
@@ -228,6 +228,7 @@ a {
   position: relative;
   float: left;
   margin-left: 216px;
+  margin-top: 20px;
 }
 .cards {
   position: relative;
@@ -238,6 +239,9 @@ a {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(150, 150, 150);
   margin: 0px 20px 10px;
+  color: black;
+  font-size: 120%;
+  text-align: center;
 }
 #card1 {
   background-color: #17a2b8;
