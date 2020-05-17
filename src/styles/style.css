@@ -185,6 +185,15 @@ strong {
   top: 20px;
   right: 5%;
 }
-.section1 {
-  
+.sales {
+  background-color: orangered;
+  position: relative;
+  width: 54.5%;
+  height: 30.8%;
+  margin: 25px;
+  border-radius: 5px;
+  background-image: url("../img/sales.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 5px rgb(150, 150, 150);
 }
